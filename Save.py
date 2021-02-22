@@ -7,10 +7,8 @@ except:
 	trying = False
 
 if trying:
-	data = {}
+	data = {'Project': [], 'Pages': []}
 
-	data['Project'] = []
-	data['Pages'] = []
 	data['Project'].append({
 	    'Project Name': 'Kaskobi - Paris',
 	    'Orginal Video': 'https://www.youtube.com/watch?v=NEWPXKJKFSc',

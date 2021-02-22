@@ -5,22 +5,22 @@ def LoadPro():
 	lp.LedAllOn(0)
 	for Value in range(8):
 		for x in range(6):
-			if x==1:
+			if x == 1:
 				lp.LedCtrlRawByCode(45,LedValue[Value])
 				lp.LedCtrlRawByCode(44,LedValue[Value])
 
 				lp.LedCtrlRawByCode(54,LedValue[Value])
 				lp.LedCtrlRawByCode(55,LedValue[Value])
-				
+
 				time.wait(sleep)
-			if x==2:
+			elif x == 2:
 				lp.LedCtrlRawByCode( 33,LedValue[Value])
 				lp.LedCtrlRawByCode( 36,LedValue[Value])
 
 				lp.LedCtrlRawByCode( 63,LedValue[Value])
 				lp.LedCtrlRawByCode( 66,LedValue[Value])
 				time.wait(sleep)
-			if x==3:
+			elif x == 3:
 				lp.LedCtrlRawByCode( 23,LedValue[Value])
 				lp.LedCtrlRawByCode( 24,LedValue[Value])
 				lp.LedCtrlRawByCode( 25,LedValue[Value])
@@ -48,7 +48,7 @@ def LoadPro():
 				lp.LedCtrlRawByCode( 58,LedValue[Value])
 
 				time.wait(sleep)
-			if x==4:	
+			elif x == 4:
 				lp.LedCtrlRawByCode( 11,LedValue[Value])
 				lp.LedCtrlRawByCode( 12,LedValue[Value])
 				lp.LedCtrlRawByCode( 13,LedValue[Value])
@@ -70,7 +70,7 @@ def LoadPro():
 				lp.LedCtrlRawByCode( 78,LedValue[Value])
 
 				time.wait(sleep)
-			if x==5:
+			elif x == 5:
 				lp.LedCtrlRawByCode(1,LedValue[Value])
 				lp.LedCtrlRawByCode(2,LedValue[Value])
 				lp.LedCtrlRawByCode(3,LedValue[Value])
